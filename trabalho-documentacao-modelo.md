@@ -2,8 +2,8 @@
 **Disciplina:** Redes de Computadores  
 **Curso:** Engenharia de Computação / Tecnologia em Análise e Desenvolvimento de Sistemas  
 
-**Nome:**  
-**RA:**  
+**Nome:**  Lucas C. Bresolino
+**RA:**  2037882
 
 ---
 
@@ -11,17 +11,17 @@
 
 |     Sub- Rede     |       IPv4 - Sub-Rede       |       IPv4 - Máscara      |             IPv6 - Sub-Rede/Prefixo            |
 | :---------------: | :-------------------------: | :-----------------------: | :--------------------------------------------: |
-|    Pato Branco    | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**NN** *(preencher)* ::/64   |
-| Francisco Beltrão | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**NN** *(preencher)* ::/64   |
-|   Dois Vizinhos   | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**NN** *(preencher)* ::/64   |
-|       Toledo      | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**NN** *(preencher)* ::/64   |
-|     Medianeira    | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**NN** *(preencher)* ::/64   |
-|    Santa Helena   | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**NN** *(preencher)* ::/64   |
-|       pb-vit      | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-|       vit-fb      | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-|       fb-ita      | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-|       ita-pb      | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-|       ita-dv      | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+|    Pato Branco    | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**82** *(preencher)* ::/64   |
+| Francisco Beltrão | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**82** *(preencher)* ::/64   |
+|   Dois Vizinhos   | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**82** *(preencher)* ::/64   |
+|       Toledo      | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**82** *(preencher)* ::/64   |
+|     Medianeira    | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**82** *(preencher)* ::/64   |
+|    Santa Helena   | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* |    2001:DB8:CAFE:**82** *(preencher)* ::/64   |
+|       pb-vit      | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**82**FF:: *(preencher)* :0/112 |
+|       vit-fb      | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**82**FF:: *(preencher)* :0/112 |
+|       fb-ita      | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**82**FF:: *(preencher)* :0/112 |
+|       ita-pb      | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**82**FF:: *(preencher)* :0/112 |
+|       ita-dv      | 200.136.**82**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**82**FF:: *(preencher)* :0/112 |
 
 
 
@@ -29,28 +29,28 @@
 
 |      Dispositivo      | Interface | IPv4                      | IPv4 - Máscara          | IPv4 - Gateway            | IPv6/Prefixo (GUA)                                   | IPv6 (LLA) | IPv6-Gateway |
 | :-------------------: | :-------: | ------------------------- | ----------------------- | ------------------------- | ---------------------------------------------------- | ---------- | ------------ |
-|          PC1          |    NIC    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
-|          PC2          |    NIC    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
-|          PC3          |    NIC    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
-|          PC4          |    NIC    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
-|          PC5          |    NIC    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
-|          PC6          |    NIC    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
-|  Switch-Pato Branco   |    SVI    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | -                                                    | -          | -            |
-|  Switch-Fco. Beltrão  |    SVI    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | -                                                    | -          | -            |
-|  Switch-Dois Vizinhos |    SVI    | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 200.136.**N**.(preencher) | -                                                    | -          | -            |
-|  Roteador-Pato Branco |   Fa0/0   | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | *FE80::1*    | -            |
-|  Roteador-Pato Branco |  Se0/0/0  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-|  Roteador-Pato Branco |  Se0/0/1  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-| Roteador-Fco. Beltrão |   Fa0/0   | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | *FE80::1*    | -            |
-| Roteador-Fco. Beltrão |  Se0/0/0  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-| Roteador-Fco. Beltrão |  Se0/0/1  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-|   Roteador-Vitorino   |  Se0/0/0  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-|   Roteador-Vitorino   |  Se0/0/1  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-|   Roteador-Itapejara  |  Se0/0/0  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-|   Roteador-Itapejara  |  Se0/0/1  | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-|   Roteador-Itapejara  |   Fa0/1   | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
-| Roteador-Dois Vizinhos|   Fa0/0   | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64     | *FE80::1*    | -            |
-| Roteador-Dois Vizinhos|   Fa0/1   | 200.136.**N**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+|          PC1          |    NIC    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
+|          PC2          |    NIC    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
+|          PC3          |    NIC    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
+|          PC4          |    NIC    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
+|          PC5          |    NIC    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
+|          PC6          |    NIC    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | EUI-64     | *FE80::1*      |
+|  Switch-Pato Branco   |    SVI    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | -                                                    | -          | -            |
+|  Switch-Fco. Beltrão  |    SVI    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | -                                                    | -          | -            |
+|  Switch-Dois Vizinhos |    SVI    | 200.136.**82**.(preencher) | 255.255.255.(preencher) | 200.136.**82**.(preencher) | -                                                    | -          | -            |
+|  Roteador-Pato Branco |   Fa0/0   | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | *FE80::1*    | -            |
+|  Roteador-Pato Branco |  Se0/0/0  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+|  Roteador-Pato Branco |  Se0/0/1  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+| Roteador-Fco. Beltrão |   Fa0/0   | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | *FE80::1*    | -            |
+| Roteador-Fco. Beltrão |  Se0/0/0  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+| Roteador-Fco. Beltrão |  Se0/0/1  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+|   Roteador-Vitorino   |  Se0/0/0  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+|   Roteador-Vitorino   |  Se0/0/1  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+|   Roteador-Itapejara  |  Se0/0/0  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+|   Roteador-Itapejara  |  Se0/0/1  | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+|   Roteador-Itapejara  |   Fa0/1   | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
+| Roteador-Dois Vizinhos|   Fa0/0   | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**(preencher)::(preencher)/64     | *FE80::1*    | -            |
+| Roteador-Dois Vizinhos|   Fa0/1   | 200.136.**82**.(preencher) | 255.255.255.(preencher) | -                         | 2001:DB8:CAFE:**82**FF::(preencher):(preencher)/112 | EUI-64     | -            |
 
 ---
 
