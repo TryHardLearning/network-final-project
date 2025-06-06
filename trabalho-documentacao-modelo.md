@@ -61,7 +61,8 @@
 #### IPv4
 |  Rede de Destino   |      Máscara        |     Próximo Salto     | Interface de Saída  |  
 |:------------------:|:-------------------:|:---------------------:|:-------------------:|  
-| (preencher)        | (preencher)         | (preencher)           | (preencher)         |  
+| 200.136.82.64       | 255.255.255.224          | 200.136.82.225           | Se0/0/0         |
+| 200.136.82.96        | 255.255.255.224          | 200.136.82.237           | Se0/0/1         |
 
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
@@ -73,7 +74,8 @@
 #### IPv4
 |  Rede de Destino   |      Máscara        |     Próximo Salto     | Interface de Saída  |  
 |:------------------:|:-------------------:|:---------------------:|:-------------------:|  
-| (preencher)        | (preencher)         | (preencher)           | (preencher)         |  
+| 200.136.82.0        | 255.255.255.192        | 200.136.82.246         | Se0/0/1        |  
+| 200.136.82.96       | 255.255.255.224        | 200.136.82.229         | Se0/0/0        |
 
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
@@ -84,7 +86,8 @@
 #### IPv4
 |  Rede de Destino   |      Máscara        |     Próximo Salto     | Interface de Saída  |  
 |:------------------:|:-------------------:|:---------------------:|:-------------------:|  
-| (preencher)        | (preencher)         | (preencher)           | (preencher)         |  
+| 200.136.82.64        | 255.255.255.224         | 200.136.82.233  | Se0/0/0         |
+| 200.136.82.0         | 255.255.255.192         | 200.136.82.226  | Se0/0/1        |  
 
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
@@ -95,7 +98,8 @@
 #### IPv4
 |  Rede de Destino   |      Máscara        |     Próximo Salto     | Interface de Saída  |  
 |:------------------:|:-------------------:|:---------------------:|:-------------------:|  
-| (preencher)        | (preencher)         | (preencher)           | (preencher)         |  
+| 200.136.82.0        | 255.255.255.192        | 200.136.82.241          | Se0/0/0        | 
+| 200.136.82.64        | 255.255.255.224          | 200.136.82.241           | (preencher)         |
 
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
