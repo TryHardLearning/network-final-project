@@ -67,7 +67,8 @@
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
 |:-------------------------------------:|:------------------------:|:-------------------:|  
-| (preencher)                           | (preencher)              | (preencher)         |  
+|2001:DB8:CAFE:8201::/64                           | 2001:DB8:CAFE:82FF:1:1              | Se0/0/0          |
+| 2001:DB8:CAFE:8202::/64                          | 2001:DB8:CAFE:82FF:3:1              | Se0/0/1          |  
 
 
 #### Roteador Francisco Beltrão
@@ -80,7 +81,8 @@
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
 |:-------------------------------------:|:------------------------:|:-------------------:|  
-| (preencher)                           | (preencher)              | (preencher)         |  
+| 2001:DB8:CAFE:8200::/64            | 2001:DB8:CAFE:82FF:2:2              | Se0/0/0         |  
+| 2001:DB8:CAFE:8202::/64            | 2001:DB8:CAFE:82FF:2:2             | Se0/0/0         |  
 
 #### Roteador Vitorino
 #### IPv4
@@ -91,7 +93,7 @@
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
 |:-------------------------------------:|:------------------------:|:-------------------:|  
-| (preencher)                           | (preencher)              | (preencher)         |  
+| 2001:DB8:CAFE:8201::/64                           | 2001:DB8:CAFE:82FF:1:2              | Se0/0/0         |  
 
 #### Roteador Itapejara D'Oeste
 #### IPv4
@@ -103,7 +105,8 @@
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
 |:-------------------------------------:|:------------------------:|:-------------------:|  
-| (preencher)                           | (preencher)              | (preencher)         |  
+| 2001:DB8:CAFE:8200::/64                           | 2001:DB8:CAFE:82FF:3:2             | Se0/0/1        | 
+| 2001:DB8:CAFE:8201::/64                          | 2001:DB8:CAFE:82FF:2:1             | Se0/0/1         |
 
 #### Roteador Dois Vizinhos
 #### IPv4
@@ -115,7 +118,8 @@
 #### IPv6
 |  Rede de Destino /Prefixo             |     Próximo Salto        | Interface de Saída  |  
 |:-------------------------------------:|:------------------------:|:-------------------:|  
-| (preencher)                           | (preencher)              | (preencher)         |  
+| 2001:DB8:CAFE:8200::/64                         | 2001:DB8:CAFE:82FF:4:1             | Fa0/1         |  
+| 2001:DB8:CAFE:8201::/64                          | 2001:DB8:CAFE:82FF:4:1              | Fa0/1        | 
 
 
 ---
